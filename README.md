@@ -27,18 +27,18 @@ LetterDrive is a full-stack web application that allows users to sign up using G
 
 ### Front-End
 - **Framework**: React + Vite
-- **UI Library**: TailwindCSS (Optional)
+- **UI Library**: TailwindCSS 
 
 ### Back-End
 - **Server**: Node.js with Express
-- **Database**: PostgreSQL (if needed for storing drafts)
-- **Authentication**: Google OAuth via Firebase Auth
+- **Database**: PostgreSQL
+- **Authentication**: Google OAuth via Supabase Auth
 - **Storage API**: Google Drive API
 
 ### Deployment
-- **Frontend**: Vercel / Netlify
-- **Backend**: Heroku / AWS / Render
-- **Database**: Supabase / Firebase Firestore / PostgreSQL
+- **Frontend**: Netlify
+- **Backend**: Supabase 
+- **Database**: Supabase  PostgreSQL
 
 ## 📂 Project Structure
 ```
@@ -63,7 +63,7 @@ LetterDrive/project
 ### Prerequisites
 - Node.js installed (v16+ recommended)
 - Google Cloud Project with Drive API enabled
-- Firebase project for authentication
+- Supabase project for authentication
 
 ### Steps
 
