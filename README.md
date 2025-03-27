@@ -1,8 +1,7 @@
 
-
 # LetterDrive
 
-LetterDrive is a full-stack web application that allows users to sign up using Google authentication, create and edit text-based letters, and save them directly to their Google Drive in Google Docs format.
+LetterDrive is a full-stack web application that allows users to sign up using Google authentication, create and edit text-based letters, and save them directly to their Google Drive in Google Docs.
 
 ## 🚀 Features
 
@@ -69,55 +68,53 @@ LetterDrive/project
 ### Steps
 
 1. Clone the repository:
-   ```sh
-   git clone https://github.com/yourusername/LetterDrive.git
-   cd LetterDrive
-   ```
+    ```sh
+    git clone https://github.com/chiragSahani/LetterDrive.git
+    cd LetterDrive
+    ```
 
 2. Install dependencies:
-   ```sh
-   npm install
-   ```
+    ```sh
+    npm install
+    ```
 
 3. Set up environment variables:
-   ```sh
-   cp .env.example .env
-   # Update with API keys and credentials
-   ```
+    ```sh
+    cp .env.example .env
+    # Update with API keys and credentials
+    ```
 
 4. Start the development server:
-   ```sh
-   npm run dev
-   ```
+    ```sh
+    npm run dev
+    ```
 
 ## 🚀 Deployment
 
 1. Build the project:
-   ```sh
-   npm run build
-   ```
+    ```sh
+    npm run build
+    ```
 
 2. Deploy front-end (Vercel/Netlify)
-   ```sh
-   vercel deploy  # Or use Netlify UI
-   ```
+    ```sh
+    vercel deploy  # Or use Netlify UI
+    ```
 
 3. Deploy back-end (Heroku/AWS)
-   ```sh
-   git push heroku main
-   ```
+    ```sh
+    git push heroku main
+    ```
 
+## 🌐 Deployed Link
 
-
+You can access the deployed application [here](https://chirageditor.netlify.app/)
 
 ## 📜 License
 MIT License
 
 ---
 
-
-
 Feel free to contribute by submitting issues and pull requests! 🚀
 
----
 
